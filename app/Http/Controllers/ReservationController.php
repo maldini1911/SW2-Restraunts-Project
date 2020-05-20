@@ -88,5 +88,16 @@ class ReservationController extends Controller
             
     }
     
+    
+    //====> Function Delete 
+    /* 
+    public function destroy($id)
+    {
+        $row = Reservation::where('id', $id);
+        $row->delete();
+        return back();
+    }
+    */
+    
 }
 
