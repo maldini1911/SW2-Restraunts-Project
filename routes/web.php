@@ -28,3 +28,4 @@ Route::get('/home', 'HomeController@index');
 
 Route::get('/Reservation/makeReservation' , 'ReservationController@makeReservation');
 Route::post('/Reservation' , 'ReservationController@store');
+Route::delete('/Reservation/delete/{id}' , 'ReservationController@store');
